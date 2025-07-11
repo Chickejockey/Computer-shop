@@ -1,0 +1,282 @@
+
+.container{
+    width: 1780px;
+    margin: auto;
+}
+ul,li{
+    list-style: none;
+}
+.banana{
+background-color: rgb(83, 83, 83);
+width: 90%;
+height: 140px;
+border-radius: 150px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+    border: 5px solid rgb(73, 73, 73);
+    
+    position: fixed;
+    z-index: 10;
+    top:0;
+    
+}
+
+body{
+    background-color: rgb(65, 65, 65);
+        animation: skys 1s backwards;
+}
+
+.htmls{
+    background-color: rgb(204, 0, 255);
+width: 477.28px;
+height: 63.54px;
+border-radius: 150px;
+margin-right: 10px;
+border: 5px solid rgb(161, 0, 201);
+display: flex;
+justify-content: space-between;
+align-items: center;
+transition: all 0.30s;
+}
+a{
+    font-family:cursive ;
+    transition: all 0.30s;
+    margin-right: 50px;
+    margin-left: 20px;
+    color: rgb(255, 255, 255);
+    text-decoration: none
+    
+}
+li{
+    text-decoration: none;
+}
+.chicken{
+    width: 231.28px;
+}
+
+.mainer{
+    /* position: absolute;
+    bottom: 350px; */
+    width: 90%;
+    height: 245px;
+    background-color: rgb(103, 107, 107);
+    border: 5px solid rgb(100, 100, 100);
+    border-radius: 55px;
+    margin-top: 250px ;
+    margin-left: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+.htmls:hover{
+
+background-color: rgb(205, 185, 212);
+border: 5px solid rgb(255, 255, 255);
+}
+
+a:hover{
+    border-radius: 15px;
+    color: black;
+    background-color: rgb(255, 255, 255);
+}
+.textCool{
+    /* position: absolute;
+    right: 600px; */
+    color: white;
+    font-family:cursive ;
+    margin-left: -150px;
+     padding-top: 45px;
+}
+.textCooler{
+    /* position: absolute;
+    bottom: 50px; */
+    /* right: 500px; */
+    color: white;
+    font-family:cursive ;
+    padding-left: 88px;
+}
+.css{
+        /* position: absolute;
+    bottom: -20px;
+    right: 500px; */
+    background-color: rgb(204, 0, 255);
+width: 477.28px;
+height: 63.54px;
+border-radius: 150px;
+margin-right: 10px;
+border: 5px solid rgb(161, 0, 201);
+display: flex;
+justify-content: space-between;
+align-items: center;
+transition: all 0.30s;
+}
+
+.css:hover{
+
+background-color: rgb(205, 185, 212);
+border: 5px solid rgb(255, 255, 255);
+}
+
+.teAst{
+    position: absolute;
+    bottom: -1000px;
+    width: 100px;
+    height: 10px;
+}
+
+
+.div_buy{
+    width: 20%;
+    height: 300px;
+    background-color: rgb(103, 107, 107);
+    border: 5px solid rgb(100, 100, 100);
+    border-radius: 55px;
+    display: flex;
+    align-items: center;
+}
+.flexbuy112{
+    display: flex;
+    justify-content: space-around;
+}
+
+.imgeer{
+    width: 300px;
+    transition: all 0.30s;
+}
+
+.yubxelf{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 200px;
+    margin-right: 100px;
+}
+.computer{
+    animation: computer 1s infinite backwards;
+    position: relative;
+    top: 0;
+}
+
+@keyframes computer{
+        0%{
+     top: 0;
+    }
+    50%{
+        top: 5%;
+    }
+    100%{
+       top: 0;
+    }
+}
+.imgeer:hover{
+    background-color: rgb(97, 97, 97);
+    border-radius: 10%;
+    border: 5px solid rgb(65, 65, 65);
+}
+
+.im4er{
+    width: 300px;
+    transition: all 0.30s;
+}
+.im4er:hover{
+    background-color: rgb(97, 97, 97);
+    border-radius: 10%;
+    width: 500px;
+    border: 5px solid rgb(65, 65, 65);
+}
+.html{
+        /* position: absolute;
+    bottom: -20px;
+    right: 500px; */
+    background-color: rgb(39, 30, 170);
+width: 477.28px;
+height: 63.54px;
+border-radius: 150px;
+margin-bottom: -120px;
+margin-left: -100px;
+border: 5px solid rgb(44, 0, 201);
+display: flex;
+justify-content: space-between;
+align-items: center;
+transition: all 0.30s;
+}
+
+.html:hover{
+
+background-color: rgb(187, 185, 212);
+border: 5px solid rgb(255, 255, 255);
+}
+ .contact-flex{
+ display: flex;
+ }
+ .contact-box-map{
+    margin-right: 150px;
+    margin-left: 150px;
+
+ }
+
+ .contact-box-map iframe{
+    width: 600px;
+    height: 500px;
+ }
+ .div{
+    margin: 10px;
+ }
+ .div input{
+    width: 500px;
+    height: 50px;
+    border-radius: 15px;
+
+ }
+ .div2{
+    margin: 10px;
+ }
+ .div2 input{
+    width: 240px;
+    height: 50px;
+    border-radius: 15px;
+
+ }
+ .div3{
+    margin: 10px;
+ }
+ .div3 select{
+    width: 500px;
+    height: 50px;
+    border-radius: 15px;
+
+ }
+ .div4{
+    margin: 10px;
+    width: 240px;
+    height: 50px;
+    border-radius: 15px;
+   background-color: rgb(255, 145, 0);
+ }
+.content{
+    margin-bottom: 100px;
+}
+@keyframes skys{
+    0%{
+        background-color: black;
+    }
+    50%{
+        background-color: rgb(37, 37, 37);
+    }
+    90%{
+         background-color: rgb(70, 69, 69);
+    }
+        100%{
+         background-color: rgb(85, 85, 85);
+    }
+}
+
+.div_buying{
+    width: 20%;
+    height: 300px;
+    background-color: rgba(103, 107, 107, 0);
+    border: 5px solid rgba(100, 100, 100, 0);
+    border-radius: 55px;
+    display: flex;
+    align-items: center;
+}
